@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
       ),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Projeto de Vendas IGTI"),
+        title: Text("Projeto de Vendas IGTI-2"),
       ),
       body: FutureBuilder(
           future: getConnection(),
