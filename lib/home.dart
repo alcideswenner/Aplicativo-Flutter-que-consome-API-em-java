@@ -11,13 +11,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  @override
-  void initState() {
-    super.initState();
-    print(salvarCliente(new Cliente(id: 1, nome: "alcides",dn: "30/06/1998"))
-        .then((value) => value.statusCode));
-  }
-
   Dio dio = new Dio();
   @override
   Widget build(BuildContext context) {
