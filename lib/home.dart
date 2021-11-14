@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
         child: IconButton(onPressed: () {}, icon: Icon(Icons.add)),
       ),
       appBar: AppBar(
-        centerTitle: true,
+        centerTitle: false,
         title: Text("Projeto de Vendas IGTI-2"),
       ),
       body: FutureBuilder(
